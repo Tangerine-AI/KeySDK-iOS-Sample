@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fah-nC-IvF">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="28K-Rj-Dwk">
+            <objects>
+                <viewController storyboardIdentifier="SignInViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Cwi-33-e5M" customClass="ViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0g2-NR-V9u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VAj-H7-lnF" userLabel="InitialView">
+                                <rect key="frame" x="0.0" y="112" width="414" height="784"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let’s Get Started!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQO-kC-uLw">
+                                        <rect key="frame" x="30" y="0.0" width="184" height="30"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking Refrence Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USX-aU-LhE">
+                                        <rect key="frame" x="30" y="60" width="147" height="17"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1TY-Ko-HgA">
+                                        <rect key="frame" x="30" y="87" width="354" height="34"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.38" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedPlaceholder" value="Enter your booking refrence number"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                <color key="value" red="0.99215686270000003" green="0.79215686269999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                                <color key="value" red="0.83529411760000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedTitleFormat" value="normalCase"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="delegate" destination="Cwi-33-e5M" id="AqM-iC-xsM"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E03-XU-ItZ">
+                                        <rect key="frame" x="30" y="141" width="85" height="17"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WJ9-Ku-2Zx">
+                                        <rect key="frame" x="30" y="168" width="354" height="34"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.38" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedPlaceholder" value="Enter phone number used while booking"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                <color key="value" red="0.99215686270000003" green="0.79215686269999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                                <color key="value" red="0.83529411760000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedTitleFormat" value="normalCase"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="delegate" destination="Cwi-33-e5M" id="0FS-1x-yHl"/>
+                                        </connections>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HdJ-Bb-hl4">
+                                        <rect key="frame" x="260" y="282" width="124" height="38"/>
+                                        <color key="backgroundColor" red="0.062745098040000002" green="0.023529411760000001" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="16"/>
+                                        <inset key="contentEdgeInsets" minX="30" minY="8" maxX="30" maxY="8"/>
+                                        <state key="normal" title="Validate">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="validateButtonAction:" destination="Cwi-33-e5M" eventType="touchUpInside" id="50s-qC-aT5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="WJ9-Ku-2Zx" secondAttribute="trailing" constant="30" id="9Ry-6n-8XG"/>
+                                    <constraint firstAttribute="trailing" secondItem="HdJ-Bb-hl4" secondAttribute="trailing" constant="30" id="D0w-rv-dyG"/>
+                                    <constraint firstItem="1TY-Ko-HgA" firstAttribute="leading" secondItem="USX-aU-LhE" secondAttribute="leading" id="Hgq-P0-v06"/>
+                                    <constraint firstItem="E03-XU-ItZ" firstAttribute="top" secondItem="1TY-Ko-HgA" secondAttribute="bottom" constant="20" id="KuF-Az-RML"/>
+                                    <constraint firstItem="USX-aU-LhE" firstAttribute="leading" secondItem="LQO-kC-uLw" secondAttribute="leading" id="LYv-Ds-xfm"/>
+                                    <constraint firstItem="LQO-kC-uLw" firstAttribute="top" secondItem="VAj-H7-lnF" secondAttribute="top" id="M2u-OH-ioY"/>
+                                    <constraint firstItem="WJ9-Ku-2Zx" firstAttribute="top" secondItem="E03-XU-ItZ" secondAttribute="bottom" constant="10" id="Pw0-u0-uPB"/>
+                                    <constraint firstItem="USX-aU-LhE" firstAttribute="top" secondItem="LQO-kC-uLw" secondAttribute="bottom" constant="30" id="Pw3-8T-muY"/>
+                                    <constraint firstAttribute="trailing" secondItem="1TY-Ko-HgA" secondAttribute="trailing" constant="30" id="QeO-du-a8g"/>
+                                    <constraint firstItem="LQO-kC-uLw" firstAttribute="leading" secondItem="VAj-H7-lnF" secondAttribute="leading" constant="30" id="ZV1-os-UWG"/>
+                                    <constraint firstItem="HdJ-Bb-hl4" firstAttribute="top" secondItem="WJ9-Ku-2Zx" secondAttribute="bottom" constant="80" id="baE-wV-dph"/>
+                                    <constraint firstItem="WJ9-Ku-2Zx" firstAttribute="leading" secondItem="E03-XU-ItZ" secondAttribute="leading" id="h2l-Cn-ueD"/>
+                                    <constraint firstItem="E03-XU-ItZ" firstAttribute="leading" secondItem="1TY-Ko-HgA" secondAttribute="leading" id="ntk-rC-CSx"/>
+                                    <constraint firstItem="1TY-Ko-HgA" firstAttribute="top" secondItem="USX-aU-LhE" secondAttribute="bottom" constant="10" id="tee-KW-2bb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VAj-H7-lnF" firstAttribute="leading" secondItem="Evd-AO-tPE" secondAttribute="leading" id="6Gx-Er-1EG"/>
+                            <constraint firstItem="VAj-H7-lnF" firstAttribute="top" secondItem="Evd-AO-tPE" secondAttribute="top" constant="24" id="eS9-hl-s3b"/>
+                            <constraint firstAttribute="bottom" secondItem="VAj-H7-lnF" secondAttribute="bottom" id="kZh-qO-rop"/>
+                            <constraint firstItem="Evd-AO-tPE" firstAttribute="trailing" secondItem="VAj-H7-lnF" secondAttribute="trailing" id="xs4-VS-788"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Evd-AO-tPE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WNx-bE-lot"/>
+                    <connections>
+                        <outlet property="bookingTextField" destination="1TY-Ko-HgA" id="Jaa-rk-0Ig"/>
+                        <outlet property="phoneNumberTextField" destination="WJ9-Ku-2Zx" id="Ehl-qd-j9C"/>
+                        <outlet property="validateButton" destination="HdJ-Bb-hl4" id="Zl7-Gr-PBB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n6u-tI-wOi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2837.68115942029" y="724.55357142857144"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="aCb-ao-GCv">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="WmL-qK-kuF" customClass="HomeViewController" customModule="Demo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PB7-cZ-XMV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8h-Lz-k14">
+                                <rect key="frame" x="20" y="244" width="374" height="40"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="Tap to lock">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="lockButtonAction:" destination="WmL-qK-kuF" eventType="touchUpInside" id="RNy-ov-DfS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOj-NJ-d0g">
+                                <rect key="frame" x="20" y="428" width="374" height="40"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="End Booking">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="endBooking:" destination="WmL-qK-kuF" eventType="touchUpInside" id="VeF-hP-dmk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaP-3y-7Qn">
+                                <rect key="frame" x="20" y="672" width="374" height="40"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="Get Booking Info">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="getBookingInfo:" destination="WmL-qK-kuF" eventType="touchUpInside" id="1yc-j0-kkS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vVk-jB-Nxp" firstAttribute="bottom" secondItem="WaP-3y-7Qn" secondAttribute="bottom" constant="150" id="1oR-OD-xkR"/>
+                            <constraint firstItem="vVk-jB-Nxp" firstAttribute="trailing" secondItem="WaP-3y-7Qn" secondAttribute="trailing" constant="20" id="9QC-Sl-ST0"/>
+                            <constraint firstItem="a8h-Lz-k14" firstAttribute="top" secondItem="vVk-jB-Nxp" secondAttribute="top" constant="200" id="A5b-gI-QSw"/>
+                            <constraint firstItem="vVk-jB-Nxp" firstAttribute="trailing" secondItem="a8h-Lz-k14" secondAttribute="trailing" constant="20" id="ALv-oc-SNc"/>
+                            <constraint firstItem="AOj-NJ-d0g" firstAttribute="centerY" secondItem="PB7-cZ-XMV" secondAttribute="centerY" id="aPU-y5-7KR"/>
+                            <constraint firstItem="AOj-NJ-d0g" firstAttribute="leading" secondItem="vVk-jB-Nxp" secondAttribute="leading" constant="20" id="cT8-yL-K22"/>
+                            <constraint firstItem="a8h-Lz-k14" firstAttribute="leading" secondItem="vVk-jB-Nxp" secondAttribute="leading" constant="20" id="hAd-SG-IPS"/>
+                            <constraint firstItem="WaP-3y-7Qn" firstAttribute="leading" secondItem="vVk-jB-Nxp" secondAttribute="leading" constant="20" id="k3f-uK-1mn"/>
+                            <constraint firstItem="vVk-jB-Nxp" firstAttribute="trailing" secondItem="AOj-NJ-d0g" secondAttribute="trailing" constant="20" id="za1-FR-adu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vVk-jB-Nxp"/>
+                    </view>
+                    <connections>
+                        <outlet property="endBookingButton" destination="AOj-NJ-d0g" id="M6i-73-3wb"/>
+                        <outlet property="lockButton" destination="a8h-Lz-k14" id="Luz-sD-qcs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="znA-Xk-z1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3555.072463768116" y="725.22321428571422"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Tof-rx-vb6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Fah-nC-IvF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fgR-TP-did">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Cwi-33-e5M" kind="relationship" relationship="rootViewController" id="gn2-ez-E9p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FJc-Z3-feP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1927.5362318840582" y="724.55357142857144"/>
+        </scene>
+    </scenes>
+</document>

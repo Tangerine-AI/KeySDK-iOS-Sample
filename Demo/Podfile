@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+source 'https://github.com/Tangerine-AI/iosKeySdk-specs.git'
+# Standard cocoapods specs source
+source 'https://cdn.cocoapods.org/'
+# platform :ios, '9.0'
+
+target 'Demo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Demo
+  
+
+   pod 'TangerineKey', '~> 1.0.0'
+   pod 'SkyFloatingLabelTextField', '~> 3.2'
+   pod 'WSProgressHUD', '~> 1.1'
+   
+end

@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Shimmer (1.0.2)
+  - SkyFloatingLabelTextField (3.8.0)
+  - TangerineKey (1.0.0):
+    - Alamofire (~> 4.7)
+  - WSProgressHUD (1.1.5):
+    - Shimmer
+
+DEPENDENCIES:
+  - SkyFloatingLabelTextField (~> 3.2)
+  - TangerineKey (~> 1.0.0)
+  - WSProgressHUD (~> 1.1)
+
+SPEC REPOS:
+  https://github.com/Tangerine-AI/iosKeySdk-specs.git:
+    - TangerineKey
+  trunk:
+    - Alamofire
+    - Shimmer
+    - SkyFloatingLabelTextField
+    - WSProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SkyFloatingLabelTextField: 5a338412114808e961fe2d14ea2c5452c8b6e4aa
+  TangerineKey: cfc0c301314577b611cfed15df4a509e496e4a96
+  WSProgressHUD: 8214e549869776514e8055527c590a109c025e3e
+
+PODFILE CHECKSUM: 3323a1512e2ab8b2cc5f3e03e8e570b8fb2a8b9c
+
+COCOAPODS: 1.8.3
